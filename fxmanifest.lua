@@ -3,7 +3,7 @@ game 'gta5'
 
 description 'qbx_houserobbery'
 repository 'https://github.com/Qbox-project/qbx_houserobbery'
-version '1.0.0'
+version '1.0.1'
 
 ox_lib 'locale'
 
@@ -13,6 +13,7 @@ shared_scripts {
 }
 
 server_scripts {
+	'server/pn-lib-config.lua',
     'server/main.lua',
 }
 
